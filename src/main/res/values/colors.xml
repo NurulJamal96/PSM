@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C9380F</color>
+    <color name="colorPrimaryDark">#1F1F1F</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="UtmColor">#965143</color>
+    <color name="titleColor">#E8EF78</color>
+    <color name="SubTitle">#000000</color>
+    <color name="BgColorSubtitle1">#CEF3A2</color>
+    <color name="BgColorSubtitle2">#1CE1AC</color>
+    <color name="BgColorSubtitle3">#DEF930</color>
+    <color name="BgColorSubtitle4">#66A8E5</color>
+    <color name="BgColorSubtitle5">#FF0059</color>
+    <color name="BgColorSubtitle6">#66A8E5</color>
+</resources>

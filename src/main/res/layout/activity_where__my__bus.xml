@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/UtmColor"
+    android:visibility="visible"
+    android:id="@+id/rl"
+    tools:context=".Where_My_Bus">
+
+    <Spinner
+        android:id="@+id/dropDownDestination"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/getRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginRight="252dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/getRoute"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/border" />
+
+    <TextView
+        android:id="@+id/border"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:background="@drawable/boarder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/showLocationOption"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:background="@drawable/boarder"
+        android:text="@string/yourLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gps"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:background="@drawable/boarder"
+        android:text="@string/gps"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showLocationOption" />
+
+    <Button
+        android:id="@+id/qrCode"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:background="@drawable/boarder"
+        android:text="@string/qrCode"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gps" />
+
+</android.support.constraint.ConstraintLayout>

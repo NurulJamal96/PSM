@@ -1,0 +1,49 @@
+<resources>
+    <!--title of the apps-->
+    <string name="app_name">Smart Bus</string>
+    <!--title of the header-->
+    <string name="dashboard">SMART BUS UTM</string>
+    <!--title for all subtitle-->
+    <string name="subTitle1">Where My Bus?</string>
+    <string name="subTitle1_Content">To Find Bus</string>
+    <string name="subTitle2">Bus Schedule</string>
+    <string name="subTitle2_Content">To Check Bus Schedule</string>
+    <string name="subTitle3">Galleries</string>
+    <string name="subTitle3_Content">To Know Utm Better</string>
+    <string name="subTitle4">Feedback</string>
+    <string name="subTitle4_Content">To Get Feedback from students</string>
+    <string name="subTitle5">Call Us</string>
+    <string name="subTitle5_Content">To Contact Management</string>
+    <string name="subTitle6">Contact</string>
+    <string name="subTitle6_Content">To Contact Developer</string>
+    <!--title for map-->
+    <string name="title_activity_maps">Map</string>
+    <!--all string declare below here is for where my bus activity-->
+    <string name="startingPoint">STARTING POINT</string>
+    <string name="destination">DESTINATION</string>
+    <string name="getRoute">GET ROUTE</string>
+    <string name="yourLocation">Your Location</string>
+    <string name="gps">GPS</string>
+    <string name="qrCode">Scan QR Code</string>
+    <string-array name="optionLocation">
+        <item>CICT UTM SKUDAI</item>
+        <item>STATION FKE 1</item>
+        <item>STATION FKE 2</item>
+        <item>MASJID SULTAN ISMAIL</item>
+        <item>FAB</item>
+        <item>Station FKA</item>
+    </string-array>
+    <!--all string declare below here is for schedule activity-->
+    <string name="schedule">schedule</string>
+    <string name="scheduleDescription">to show schedule image</string>
+
+    <string name="start_updates">start update</string>
+    <string name="stop_updates">stop updates</string>
+    <string name="get_last_location">get last location</string>
+    <string name="ok">Location updates will be received only when app is foreground"</string>
+
+    <!--for token map-->
+    <string name="access_token" translatable="false">pk.eyJ1Ijoic2hhZnJpZnlwIiwiYSI6ImNqc3BvZnEwYjA2djMzeW1zOTdobTlhN20ifQ.ejxVnDjOqXBwGLDqMIbApg</string>
+    <string name="user_location_permission_explanation">This app needs location permissions in order to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+</resources>
